@@ -35,12 +35,17 @@ Based on that, the state version table is maintained such that the transactions 
 
 ## Move is a resource based language instead of transaction based language (Just like Rust)
 
-So, in EVM, if if NFT ownership changes from A to B, it is stored as a transaction showing the change 
+So, in EVM, if the NFT ownership changes from A to B, it is stored as a transaction showing the change 
 
 In Move, this is resource based, that is object changes its owner details instead of recording it as a shift from one person to other 
 
 
 ![Resource based language](images/transaction%20versus%20resource.jpg)
 
+
+## Move has higher access control as the signer is the only entity capable of adding resources into an account
+
+
+## Move structs cant be duplicated by default, this is called concept of scarcity (limited resources) 
 
 
